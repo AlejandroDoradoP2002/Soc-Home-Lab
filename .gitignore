@@ -1,0 +1,14 @@
+# Ignore VM and ISO files (just in case)
+*.vmdk
+*.iso
+*.ova
+*.ovf
+*.img
+*.qcow2
+
+# Logs
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
