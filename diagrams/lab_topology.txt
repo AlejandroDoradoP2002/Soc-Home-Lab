@@ -1,0 +1,17 @@
+Idea for lab topology diagram:
+
+Internet
+   |
+[ pfSense firewall ]
+   |
+   +--- [ Windows host ]  (domain member or standalone)
+   |
+   +--- [ Kali Linux ]    (attacker)
+   |
+   +--- [ Ubuntu server ] (optional)
+
+- pfSense sends firewall logs to Splunk.
+- Windows sends Security Event Logs to Splunk.
+- Splunk runs on a dedicated VM or on one of the servers.
+
+You can draw this in draw.io / diagrams.net and export a PNG into this folder later.
